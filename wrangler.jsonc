@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "good-job-start",
+  "compatibility_date": "2026-06-09",
+  "compatibility_flags": ["nodejs_compat"],
+  // Pages-only key: static assets in dist/, SSR worker in dist/_worker.js/
+  "pages_build_output_dir": "./dist"
+}
